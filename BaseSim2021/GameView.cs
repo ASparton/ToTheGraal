@@ -57,19 +57,38 @@ namespace BaseSim2021
 
         private void GameView_Paint(object sender, PaintEventArgs e)
         {
-            /*
-            diffLabel.Text = "Difficulté : " + "?";
-            turnLabel.Text = "Tour " + "?";
-            moneyLabel.Text = "Trésor : " + "?" + " pièces d'or";
-            gloryLabel.Text = "Gloire : " + "?";
-            */
-            nextButton.Visible = false;
+            diffLabel.Text = "Difficulté : " + theWorld.TheDifficulty;
+            turnLabel.Text = "Tour " + theWorld.Turns;
+            moneyLabel.Text = "Trésor : " + theWorld.Money + " pièces d'or";
+            gloryLabel.Text = "Gloire : " + theWorld.Glory;
+            nextButton.Visible = true;
         }
+
+        private void NextButton_Click(object sender, EventArgs e) => GameController.Interpret("suivant");
         #endregion
 
-        private void NextButton_Click(object sender, EventArgs e)
-        {
+        #region Game end handling
 
+        public void DisplayLoseDialog(IndexedValue indexedValue)
+        {
+            if (indexedValue == null)
+            {
+                MessageBox.Show("Partie perdue : dette insurmontable.");
+            }
+            else
+            {
+                MessageBox.Show("Partie perdue :" + indexedValue.CompletePresentation());
+            }
+            nextButton.Enabled = false;
         }
+
+        public void DisplayWinDialog()
+        {
+            MessageBox.Show("Partie gagnée : Vous avez activé le Graal, bravo !");
+            nextButton.Enabled = false;
+        }
+
+
+        #endregion
     }
 }

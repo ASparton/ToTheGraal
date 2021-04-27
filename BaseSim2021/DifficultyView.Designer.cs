@@ -31,15 +31,16 @@ namespace BaseSim2021
         {
             this.easyButton = new System.Windows.Forms.Button();
             this.midButton = new System.Windows.Forms.Button();
-            this.hardButton = new System.Windows.Forms.Button();
+            this.HardButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // easyButton
             // 
             this.easyButton.DialogResult = System.Windows.Forms.DialogResult.OK;
-            this.easyButton.Location = new System.Drawing.Point(121, 162);
+            this.easyButton.Location = new System.Drawing.Point(60, 84);
+            this.easyButton.Margin = new System.Windows.Forms.Padding(2);
             this.easyButton.Name = "easyButton";
-            this.easyButton.Size = new System.Drawing.Size(115, 51);
+            this.easyButton.Size = new System.Drawing.Size(58, 27);
             this.easyButton.TabIndex = 0;
             this.easyButton.Text = "Facile";
             this.easyButton.UseVisualStyleBackColor = true;
@@ -48,31 +49,36 @@ namespace BaseSim2021
             // midButton
             // 
             this.midButton.DialogResult = System.Windows.Forms.DialogResult.OK;
-            this.midButton.Location = new System.Drawing.Point(293, 162);
+            this.midButton.Location = new System.Drawing.Point(146, 84);
+            this.midButton.Margin = new System.Windows.Forms.Padding(2);
             this.midButton.Name = "midButton";
-            this.midButton.Size = new System.Drawing.Size(115, 51);
+            this.midButton.Size = new System.Drawing.Size(58, 27);
             this.midButton.TabIndex = 1;
             this.midButton.Text = "Moyen";
             this.midButton.UseVisualStyleBackColor = true;
             this.midButton.Click += new System.EventHandler(this.MidButton_Click);
             // 
-            // hardButton
+            // HardButton
             // 
-            this.hardButton.Location = new System.Drawing.Point(475, 162);
-            this.hardButton.Name = "hardButton";
-            this.hardButton.Size = new System.Drawing.Size(115, 51);
-            this.hardButton.TabIndex = 2;
-            this.hardButton.Text = "Difficile";
-            this.hardButton.UseVisualStyleBackColor = true;
+            this.HardButton.DialogResult = System.Windows.Forms.DialogResult.OK;
+            this.HardButton.Location = new System.Drawing.Point(238, 84);
+            this.HardButton.Margin = new System.Windows.Forms.Padding(2);
+            this.HardButton.Name = "HardButton";
+            this.HardButton.Size = new System.Drawing.Size(58, 27);
+            this.HardButton.TabIndex = 2;
+            this.HardButton.Text = "Difficile";
+            this.HardButton.UseVisualStyleBackColor = true;
+            this.HardButton.Click += new System.EventHandler(this.HardButton_Click);
             // 
             // DifficultyView
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.hardButton);
+            this.ClientSize = new System.Drawing.Size(400, 234);
+            this.Controls.Add(this.HardButton);
             this.Controls.Add(this.midButton);
             this.Controls.Add(this.easyButton);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "DifficultyView";
             this.Text = "Choix de la difficulté";
             this.ResumeLayout(false);
@@ -83,6 +89,6 @@ namespace BaseSim2021
 
         private System.Windows.Forms.Button easyButton;
         private System.Windows.Forms.Button midButton;
-        private System.Windows.Forms.Button hardButton;
+        private System.Windows.Forms.Button HardButton;
     }
 }

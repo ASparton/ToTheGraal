@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31205.134
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaseSim2021", "BaseSim2021.csproj", "{26C0CBFB-EACD-4FB6-937A-289F4929FFBF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaseSim2021_SPARTON_Alexandre", "BaseSim2021_SPARTON_Alexandre.csproj", "{26C0CBFB-EACD-4FB6-937A-289F4929FFBF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

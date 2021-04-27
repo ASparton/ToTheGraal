@@ -1,0 +1,11 @@
+C:\Users\spart\OneDrive\Bureau\IUT\IUTCourses\S2\IHM\Projet\BaseSim2021\bin\Debug\BaseSim2021.exe.config
+C:\Users\spart\OneDrive\Bureau\IUT\IUTCourses\S2\IHM\Projet\BaseSim2021\bin\Debug\BaseSim2021.exe
+C:\Users\spart\OneDrive\Bureau\IUT\IUTCourses\S2\IHM\Projet\BaseSim2021\bin\Debug\BaseSim2021.pdb
+C:\Users\spart\OneDrive\Bureau\IUT\IUTCourses\S2\IHM\Projet\BaseSim2021\obj\Debug\BaseSim2021.csprojAssemblyReference.cache
+C:\Users\spart\OneDrive\Bureau\IUT\IUTCourses\S2\IHM\Projet\BaseSim2021\obj\Debug\BaseSim2021.DifficultyView.resources
+C:\Users\spart\OneDrive\Bureau\IUT\IUTCourses\S2\IHM\Projet\BaseSim2021\obj\Debug\BaseSim2021.GameView.resources
+C:\Users\spart\OneDrive\Bureau\IUT\IUTCourses\S2\IHM\Projet\BaseSim2021\obj\Debug\BaseSim2021.Properties.Resources.resources
+C:\Users\spart\OneDrive\Bureau\IUT\IUTCourses\S2\IHM\Projet\BaseSim2021\obj\Debug\BaseSim2021.csproj.GenerateResource.cache
+C:\Users\spart\OneDrive\Bureau\IUT\IUTCourses\S2\IHM\Projet\BaseSim2021\obj\Debug\BaseSim2021.csproj.CoreCompileInputs.cache
+C:\Users\spart\OneDrive\Bureau\IUT\IUTCourses\S2\IHM\Projet\BaseSim2021\obj\Debug\BaseSim2021.exe
+C:\Users\spart\OneDrive\Bureau\IUT\IUTCourses\S2\IHM\Projet\BaseSim2021\obj\Debug\BaseSim2021.pdb

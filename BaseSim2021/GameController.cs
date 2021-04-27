@@ -247,6 +247,7 @@ namespace BaseSim2021
         /// <param name="indexedValue">The value responsible or null for debt</param>
         public static void LoseDialog(IndexedValue indexedValue)
         {
+            theView.DisplayLoseDialog(indexedValue);
             theView.WriteLine("Partie perdue." +
                 (indexedValue==null ? " Dette insurmontable." : indexedValue.CompletePresentation()));
             theView.Refresh();
@@ -256,6 +257,7 @@ namespace BaseSim2021
         /// </summary>
         public static void WinDialog()
         {
+            theView.DisplayWinDialog();
             theView.WriteLine("Partie gagnée.");
             theView.Refresh();
         }
