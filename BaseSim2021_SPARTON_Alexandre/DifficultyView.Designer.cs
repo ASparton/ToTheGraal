@@ -74,7 +74,7 @@ namespace BaseSim2021
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(400, 234);
+            this.ClientSize = new System.Drawing.Size(360, 193);
             this.Controls.Add(this.HardButton);
             this.Controls.Add(this.midButton);
             this.Controls.Add(this.easyButton);

@@ -1,0 +1,26 @@
+Où j'en suis dans le projet ?
+
+Exercices obligatoires traités (tous):
+- Exercice n°7
+- Exercice n°8
+- Exercice n°9
+- Exercice n°10
+- Exercice n°11
+- Exercice n°12
+	--> Politique non disponible : Opacité réduite
+	--> Valeur non active : Stroke Pattern changé
+- Exercice n°13
+- Exercice n°14
+- Exercice n°15
+- Exercice n°16 
+	--> Le fichier normalement nommé "ValueExplorer.cs" 
+	est remplacé par un Form nommé "IndexedValueInfosView" pour les valeurs non politiques
+	et par un Form nommé "ChangePolicyView" pour les politiques.
+
+Compléments réalisés :
+- Complément n°1
+	--> Les politiques sont des ellipses
+- Complément n°3 TRES SIMPLIFIE
+	--> Un boutton "historique" est présent dans 
+	"IndexedValueInfosView" et "ChangePolicyView" et affiche sous forme de texte
+	l'historique de la valeur : "Tour x : valeur"

@@ -18,13 +18,15 @@ namespace BaseSim2021
             Application.SetCompatibleTextRenderingDefault(false);
             WorldState.Difficulty diff;
             DifficultyView dv = new DifficultyView();
-            dv.ShowDialog();
-            diff = dv.Difficulty;
-            WorldState theWorld = new WorldState(diff, "../../Logres.xml");
-            GameView theView = new GameView(theWorld);
-            GameController.SetView(theView);
-            GameController.SetWorld(theWorld);
-            Application.Run(theView);
+            if (dv.ShowDialog() == DialogResult.OK)
+            {
+                diff = dv.Difficulty;
+                WorldState theWorld = new WorldState(diff, "../../Logres.xml");
+                GameView theView = new GameView(theWorld);
+                GameController.SetView(theView);
+                GameController.SetWorld(theWorld);
+                Application.Run(theView);
+            }
         }
     }
 }

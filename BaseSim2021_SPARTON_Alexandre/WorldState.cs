@@ -104,6 +104,11 @@ namespace BaseSim2021
             {
                 return iVs[0];
             }
+
+            policies.ForEach(p => Console.WriteLine(p.Name));
+            Console.WriteLine(policies.Count);
+            Console.WriteLine(policies.Count);
+            Console.WriteLine(pol);
             return null;
         }
         /// <summary>
